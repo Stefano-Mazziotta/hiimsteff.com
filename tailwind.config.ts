@@ -4,6 +4,7 @@ const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/ui/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -13,14 +14,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      animation: {
-        "infinite-scroll": "infinite-scroll 25s linear infinite",
-      },
       keyframes: {
-        "infinite-scroll": {
-          from: { transform: "translateX(0)" },
-          to: { transform: "translateX(-100%)" },
+        scrollLeft: {
+          from: { transform: "translateX(0px)" },
+          to: { transform: "translateX(-50%)" },
         },
+      },
+      animation: {
+        "scroll-left": "scrollLeft 60s linear infinite",
+        "scroll-right": "scrollLeft 60s linear infinite reverse",
       },
     },
   },
