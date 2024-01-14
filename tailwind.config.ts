@@ -21,8 +21,8 @@ const config: Config = {
         },
       },
       animation: {
-        "scroll-left": "scrollLeft 60s linear infinite",
-        "scroll-right": "scrollLeft 60s linear infinite reverse",
+        "scroll-left": "scrollLeft 30s linear infinite",
+        "scroll-right": "scrollLeft 30s linear infinite reverse",
       },
     },
   },

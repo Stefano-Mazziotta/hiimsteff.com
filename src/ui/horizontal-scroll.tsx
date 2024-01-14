@@ -12,14 +12,16 @@ export default function HorizontalScroll({
   console.log("photos", photos);
   console.timeEnd();
 
-  const scrollAnimation = `flex md:justify-start [&_li]:mx-1 [&_img]:max-w-none animate-scroll-${direction}`;
+  const scrollAnimation = `animate-scroll-${direction}`;
   const gradient =
     "[mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-150px),transparent_100%)]";
   return (
     <main
       className={`w-full inline-flex flex-nowrap overflow-hidden ${gradient}`}
     >
-      <ul className={`${scrollAnimation}`}>
+      <ul
+        className={`flex md:justify-start [&_li]:mx-1 [&_img]:max-w-none ${scrollAnimation}`}
+      >
         {photos.map((photo, index) => {
           return (
             <li key={index}>
