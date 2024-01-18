@@ -5,7 +5,9 @@ export default function Header() {
     <header>
       <nav className="p-4 flex justify-between items-center">
         <Link href="#">
-          <h1 className="text-4xl font-semibold text-cyan-600">SMZT</h1>
+          <h1 className="text-4xl font-semibold text-cyan-300 decoration-cyan-950 text-shadow">
+            smzt
+          </h1>
         </Link>
         <ul className="flex gap-4">
           <li>

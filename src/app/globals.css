@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --cyan-950: #083344;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +25,9 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.text-shadow {
+  text-shadow: 3px 0px 0px var(--cyan-950);
+  text-transform: uppercase;
 }
