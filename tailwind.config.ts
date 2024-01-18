@@ -19,10 +19,14 @@ const config: Config = {
           from: { transform: "translateX(0px)" },
           to: { transform: "translateX(-50%)" },
         },
+        shine: {
+          "100%": { left: "125%" },
+        },
       },
       animation: {
         "scroll-left": "scrollLeft 30s linear infinite",
         "scroll-right": "scrollLeft 30s linear infinite reverse",
+        shine: "shine 1s",
       },
     },
   },
