@@ -29,5 +29,4 @@ body {
 
 .text-shadow {
   text-shadow: 3px 0px 0px var(--cyan-950);
-  text-transform: uppercase;
 }
