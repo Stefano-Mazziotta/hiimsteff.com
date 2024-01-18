@@ -3,30 +3,6 @@ import { photo } from "./definitions/photo";
 
 export const albums: album[] = [
   {
-    title: "ROME",
-    description: "An archeological polis.",
-    slug: "rome",
-    thumbnail: {
-      url: "/albums/000025.JPG",
-      description: "University of Southern California",
-      width: 1700,
-      height: 2598,
-    },
-    photos: [],
-  },
-  {
-    title: "AMSTERDAM",
-    description: "Masters of water.",
-    slug: "amsterdam",
-    thumbnail: {
-      url: "/albums/F2530006.JPG",
-      description: "University of Southern California",
-      width: 200,
-      height: 100,
-    },
-    photos: [],
-  },
-  {
     title: "ROSARIO",
     description: "Narco city",
     slug: "rosario",
@@ -35,6 +11,30 @@ export const albums: album[] = [
       description: "University of Southern California",
       width: 200,
       height: 100,
+    },
+    photos: [],
+  },
+  {
+    title: "BARCELONA",
+    description: "Masters of water.",
+    slug: "amsterdam",
+    thumbnail: {
+      url: "/albums/barcelona/thumbnail.jpg",
+      description: "University of Southern California",
+      width: 200,
+      height: 100,
+    },
+    photos: [],
+  },
+  {
+    title: "ROME",
+    description: "An archeological polis.",
+    slug: "rome",
+    thumbnail: {
+      url: "/albums/rome/thumbnail.jpg",
+      description: "University of Southern California",
+      width: 1700,
+      height: 2598,
     },
     photos: [],
   },
