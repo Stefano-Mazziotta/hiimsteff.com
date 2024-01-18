@@ -7,7 +7,7 @@ export const albums: album[] = [
     description: "An archeological polis.",
     slug: "rome",
     thumbnail: {
-      url: "/analogs/000025.JPG",
+      url: "/albums/000025.JPG",
       description: "University of Southern California",
       width: 1700,
       height: 2598,
@@ -19,7 +19,7 @@ export const albums: album[] = [
     description: "Masters of water.",
     slug: "amsterdam",
     thumbnail: {
-      url: "/analogs/F2530006.JPG",
+      url: "/albums/F2530006.JPG",
       description: "University of Southern California",
       width: 200,
       height: 100,
