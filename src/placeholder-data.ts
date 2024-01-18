@@ -7,7 +7,7 @@ export const albums: album[] = [
     description: "Narco city",
     slug: "rosario",
     thumbnail: {
-      url: "/albums/F2530028.JPG",
+      url: "/albums/rosario/thumbnail.jpg",
       description: "University of Southern California",
       width: 200,
       height: 100,
@@ -55,7 +55,7 @@ export const albums: album[] = [
     description: "City of love",
     slug: "paris",
     thumbnail: {
-      url: "/albums/F2530032.JPG",
+      url: "/albums/berlin/thumbnail.jpg",
       description: "University of Southern California",
       width: 200,
       height: 100,
@@ -67,10 +67,10 @@ export const albums: album[] = [
     description: "City of love",
     slug: "firenze",
     thumbnail: {
-      url: "/albums/F2530033.JPG",
+      url: "/albums/firenze/thumbnail.jpg",
       description: "University of Southern California",
-      width: 200,
-      height: 100,
+      width: 3287,
+      height: 2071,
     },
     photos: [],
   },
