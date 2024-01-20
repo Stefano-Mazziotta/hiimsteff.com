@@ -1,4 +1,4 @@
-import AlbumsGrid from "@/ui/albums-grid";
+import AlbumsGrid from "@/ui/album/albums-grid";
 
 export default function Home() {
   return (
