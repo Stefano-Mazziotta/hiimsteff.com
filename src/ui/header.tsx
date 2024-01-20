@@ -5,13 +5,17 @@ export default function Header() {
     <header>
       <nav className="p-4 flex justify-between items-center">
         <Link href="/">
-          <h1 className="text-4xl font-semibold text-cyan-300 decoration-cyan-950 text-shadow">
+          <h1 className="group text-4xl font-semibold text-cyan-300 text-shadow">
             smzt
+            <span className="block max-w-0 md:group-hover:max-w-full transition-all duration-300 h-0.5 bg-cyan-900"></span>
           </h1>
         </Link>
         <ul className="flex gap-4">
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/" className="group text-cyan-50">
+              Home
+              <span className="block max-w-0 md:group-hover:max-w-full transition-all duration-300 h-0.5 bg-cyan-900"></span>
+            </Link>
           </li>
         </ul>
       </nav>
