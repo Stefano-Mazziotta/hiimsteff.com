@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "next": "14.0.4",
+    "plaiceholder": "^3.0.0",
     "react": "^18",
     "react-dom": "^18",
     "sharp": "^0.33.1"
