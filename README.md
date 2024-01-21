@@ -35,4 +35,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-thumbnail size: 460x620 620x460
+thumbnail album size: 460x620 620x460
+gallery - vertical image size: 500x800
+gallery - horizontal image size: 500x350
