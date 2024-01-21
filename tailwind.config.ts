@@ -22,11 +22,15 @@ const config: Config = {
         shine: {
           "100%": { left: "125%" },
         },
+        gradient: {
+          to: { "background-position": "200% center" },
+        },
       },
       animation: {
         "scroll-left": "scrollLeft 30s linear infinite",
         "scroll-right": "scrollLeft 30s linear infinite reverse",
         shine: "shine 1s",
+        gradient: "gradient 8s linear infinite",
       },
     },
   },
