@@ -38,3 +38,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 thumbnail album size: 460x620 620x460
 gallery - vertical image size: 500x800
 gallery - horizontal image size: 500x350
+
+https://github.com/vercel/next.js/blob/canary/examples/with-cloudinary/pages/index.tsx
+https://nextjsconf-pics.vercel.app/
