@@ -18,8 +18,8 @@ export default async function AlbumCard({ album }: { album: album }) {
       <Image
         src={imgURL}
         alt={thumbnail.description}
-        width={600}
-        height={400}
+        width={1280}
+        height={720}
         className="absolute inset-0 h-full w-full object-cover"
         blurDataURL={myBlurDataUrl}
         placeholder="blur"

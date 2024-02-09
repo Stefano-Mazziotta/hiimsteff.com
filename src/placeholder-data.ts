@@ -10,7 +10,7 @@ export const albums: album[] = [
     slug: "rosario",
     thumbnail: {
       id: "b9aaf1f8-697a-4c70-9893-1271eaa14a2f",
-      url: "/albums/rosario/thumbnail.jpg",
+      url: "/albums/rosario/rosario-thumbnail.webp",
       description: "University of Southern California",
       width: 417,
       height: 625,
@@ -192,7 +192,7 @@ export const albums: album[] = [
     slug: "eternity",
     thumbnail: {
       id: "0ef21624-eeac-48f0-9a78-a21b3e8a2701",
-      url: "/albums/eternity/thumbnail.jpg",
+      url: "/albums/eternity/eternity-thumbnail.webp",
       description: "University of Southern California",
       width: 200,
       height: 100,
@@ -374,7 +374,7 @@ export const albums: album[] = [
     slug: "street",
     thumbnail: {
       id: "4a68a188-e731-4ad1-aa67-e8cb643038ed",
-      url: "/albums/street/thumbnail.jpg",
+      url: "/albums/street/street-thumbnail.webp",
       description: "University of Southern California",
       width: 1700,
       height: 2598,
