@@ -5,13 +5,18 @@ import GalleryGrid from "@/ui/gallery/gallery-grid";
 export default function AlbumPage({ params }: { params: { slug: string } }) {
   const { slug } = params;
 
-  const album = albums.find((album) => album.slug === slug) || null;
-  const description = album?.description || "24 images";
+  const album = albums.find((album) => album.slug === slug);
+
+  if (!album) {
+    return;
+  }
+
+  const { photos, description } = album;
 
   return (
     <section className="px-4">
       <GalleryBanner slug={slug} description={description} />
-      <GalleryGrid album={album} />
+      <GalleryGrid slug={slug} photos={photos} />
     </section>
   );
 }

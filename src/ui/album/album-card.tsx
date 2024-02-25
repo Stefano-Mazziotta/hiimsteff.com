@@ -5,19 +5,19 @@ import { getBase64 } from "@/lib/get-base64";
 import getURL from "@/lib/get-url";
 
 export default async function AlbumCard({ album }: { album: album }) {
-  const { slug, title, thumbnail } = album;
+  const { slug, title, featuredPhoto } = album;
 
-  const imgURL = getURL(thumbnail.url);
+  const imgURL = getURL(featuredPhoto);
   const myBlurDataUrl = await getBase64(imgURL);
 
   return (
     <Link
-      href={`album/${slug}`}
+      href={`/${slug}`}
       className="group relative isolate flex flex-col justify-end h-100 min-h-60 w-full"
     >
       <Image
         src={imgURL}
-        alt={thumbnail.description}
+        alt={title}
         width={1280}
         height={720}
         className="absolute inset-0 h-full w-full object-cover"

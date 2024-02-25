@@ -1,13 +1,17 @@
-import { album } from "@/definitions/album";
+import { photo } from "@/definitions/photo";
 import GalleryCard from "./gallery-card";
 
-export default function GalleryGrid({ album }: { album: album | null }) {
-  let photos = album?.photos || [];
-
+export default function GalleryGrid({
+  photos,
+  slug,
+}: {
+  photos: photo[];
+  slug: string;
+}) {
   return (
     <main className="columns-1 md:columns-2 lg:columns-3">
       {photos.map((photo) => {
-        return <GalleryCard key={photo.id} photo={photo} />;
+        return <GalleryCard key={photo.id} photo={photo} slug={slug} />;
       })}
     </main>
   );
