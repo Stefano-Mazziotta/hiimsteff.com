@@ -26,7 +26,7 @@ export default function HorizontalScroll({
           return (
             <li key={index}>
               <Image
-                src={photo.url}
+                src={photo.path}
                 alt={photo.description}
                 width={photo.width}
                 height={photo.height}
@@ -38,7 +38,7 @@ export default function HorizontalScroll({
           return (
             <li key={index}>
               <Image
-                src={photo.url}
+                src={photo.path}
                 alt={photo.description}
                 width={photo.width}
                 height={photo.height}
