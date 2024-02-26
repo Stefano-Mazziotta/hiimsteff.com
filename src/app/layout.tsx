@@ -11,16 +11,16 @@ export const metadata: Metadata = {
   description: "Analog photographies",
 };
 
-export default function RootLayout({
-  children,
-}: {
+export default function RootLayout(props: {
   children: React.ReactNode;
+  modal: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        {children}
+        {props.children}
+        {props.modal}
         <Footer />
       </body>
     </html>

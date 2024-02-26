@@ -15,14 +15,16 @@ export default function GalleryCard({
   const url = `/${slug}/${photo.id}`;
 
   return (
-    <div className="relative mb-3 md:before:content-[''] md:before:absolute md:before:inset-0 md:before:bg-black md:before:transition-opacity md:before:bg-opacity-40 md:hover:before:bg-opacity-0 md:hover:cursor-zoom-in">
-      <Image
-        className="w-full"
-        src={photo.path}
-        alt={photo.description}
-        width={800}
-        height={600}
-      />
-    </div>
+    <Link href={url} passHref>
+      <div className="relative mb-3 md:before:content-[''] md:before:absolute md:before:inset-0 md:before:bg-black md:before:transition-opacity md:before:bg-opacity-40 md:hover:before:bg-opacity-0 md:hover:cursor-zoom-in">
+        <Image
+          className="w-full"
+          src={photo.path}
+          alt={photo.description}
+          width={800}
+          height={600}
+        />
+      </div>
+    </Link>
   );
 }

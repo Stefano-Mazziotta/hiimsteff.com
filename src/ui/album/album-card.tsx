@@ -13,7 +13,7 @@ export default async function AlbumCard({ album }: { album: album }) {
   return (
     <Link
       href={`/${slug}`}
-      className="group relative isolate flex flex-col justify-end h-100 min-h-60 w-full"
+      className="group relative isolate flex flex-col justify-end h-100 min-h-60 w-full z-10"
     >
       <Image
         src={imgURL}
