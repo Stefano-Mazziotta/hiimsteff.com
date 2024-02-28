@@ -19,15 +19,21 @@ export default function PhotoModal({
 
   return (
     <Modal>
-      <Image
-        src={photo.path}
-        width={1920}
-        height={1080}
-        alt={photo.description}
-      />
-      {/* {id}
-      {slug}
-      {photo.description} */}
+      <article className="h-full flex flex-col items-start">
+        <div className="flex max-h-[620px]">
+          <Image
+            src={photo.path}
+            width={1920}
+            height={1080}
+            alt={photo.description}
+            className="object-contain" // Use object-cover for landscape images and object-contain for portrait images
+          />
+        </div>
+        <div className="">
+          <p className="">{photo.description}</p>{" "}
+          <p className="">{photo.location.coordinates}</p>{" "}
+        </div>
+      </article>
     </Modal>
   );
 }

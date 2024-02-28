@@ -20,10 +20,12 @@ export function Modal({ children }: { children: React.ReactNode }) {
 
   return createPortal(
     <div className="fixed z-50 inset-0 bg-black bg-opacity-80 overflow-y-auto h-full w-full flex justify-center items-center px-4">
-      <section className="flex flex-col w-[100px] h-[100px]">
-        <button type="button" onClick={onDismiss}>
-          x
-        </button>
+      <section className="h-full flex flex-col justify-center">
+        <header className="flex justify-end mb-1">
+          <button className="text-right" type="button" onClick={onDismiss}>
+            X
+          </button>
+        </header>
         {children}
       </section>
     </div>,
