@@ -45,7 +45,12 @@ export const albums: album[] = [
         description: "cat and dog in grafiti",
         camera: cameras[0],
         film: films[0],
-        labels: [],
+        labels: [
+          {
+            id: 1,
+            name: "color",
+          },
+        ],
         location: {
           id: 1,
           name: "Parque españa",

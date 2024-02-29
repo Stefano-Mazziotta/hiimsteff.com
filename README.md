@@ -41,3 +41,5 @@ gallery - horizontal image size: 500x350
 
 https://github.com/vercel/next.js/blob/canary/examples/with-cloudinary/pages/index.tsx
 https://nextjsconf-pics.vercel.app/
+
+https://fonts.google.com/specimen/Special+Elite?query=Special+Elite

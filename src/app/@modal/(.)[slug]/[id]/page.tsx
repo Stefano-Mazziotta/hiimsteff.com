@@ -17,10 +17,12 @@ export default function PhotoModal({
   const photo = album.photos.find((photo) => photo.id === id);
   if (!photo) return;
 
+  const { description, location, camera, film, labels } = photo;
+
   return (
     <Modal>
-      <article className="h-full flex flex-col items-start">
-        <div className="flex max-h-[620px]">
+      <article className="h-full flex flex-col items-start overflow-y-scroll pb-5 gap-5 md:overflow-y-auto">
+        <div className="flex max-h-[620px] max-w-full">
           <Image
             src={photo.path}
             width={1920}
@@ -29,9 +31,20 @@ export default function PhotoModal({
             className="object-contain" // Use object-cover for landscape images and object-contain for portrait images
           />
         </div>
-        <div className="">
-          <p className="">{photo.description}</p>{" "}
-          <p className="">{photo.location.coordinates}</p>{" "}
+        <div className="flex flex-col gap-2 bg-black w-full border-t border-b border-cyan-800">
+          <h2 className="text-lg">{description}</h2>
+          <p className="">
+            {`🗺️ ${location.name}, ${location.country.name}. (${location.coordinates})`}
+          </p>
+          <p className="">📷{camera.name}</p>
+          <p className="">🎞️{film.name}</p>
+          {labels.map((label, index) => {
+            return (
+              <p className="text-gray-400" key={index}>
+                #{label.name}
+              </p>
+            );
+          })}
         </div>
       </article>
     </Modal>
