@@ -33,7 +33,7 @@ export const albums: album[] = [
     id: 1,
     labels: [],
     title: "ROSARIO",
-    description: "City of Messi",
+    description: "Messi's City",
     slug: "rosario",
     featuredPhoto: "/albums/rosario/rosario-thumbnail.webp",
     photos: [
