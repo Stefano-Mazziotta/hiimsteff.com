@@ -19,16 +19,16 @@ export function Modal({ children }: { children: React.ReactNode }) {
   }
 
   return createPortal(
-    <div className="fixed z-50 inset-0 bg-black overflow-y-auto h-full w-full flex justify-center items-center px-4">
-      <section className="h-full flex flex-col">
-        <header className="flex justify-end mb-1">
+    <section className="fixed inset-0 flex h-full w-full items-center justify-center overflow-y-auto bg-black bg-opacity-80">
+      <div className="w-11/12 border-2 border-cyan-950 bg-black p-1 shadow-lg lg:w-6/12 lg:p-4">
+        <header className="mb-1 flex justify-end">
           <button className="text-right" type="button" onClick={onDismiss}>
             X
           </button>
         </header>
         {children}
-      </section>
-    </div>,
-    document.getElementById("modal-root")!
+      </div>
+    </section>,
+    document.getElementById("modal-root")!,
   );
 }

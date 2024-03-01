@@ -17,35 +17,47 @@ export default function PhotoModal({
   const photo = album.photos.find((photo) => photo.id === id);
   if (!photo) return;
 
-  const { description, location, camera, film, labels } = photo;
+  const { description, path, location, camera, film, labels } = photo;
 
   return (
     <Modal>
-      <article className="h-full flex flex-col items-start overflow-y-scroll pb-5 gap-5 md:overflow-y-auto">
-        <div className="flex max-h-[620px] max-w-full">
+      <article className="flex flex-col items-start justify-center gap-1">
+        <div className="flex max-h-[620px]">
           <Image
-            src={photo.path}
+            src={path}
             width={1920}
             height={1080}
-            alt={photo.description}
-            className="object-contain" // Use object-cover for landscape images and object-contain for portrait images
+            alt={description}
+            className="object-contain"
           />
         </div>
-        <div className="flex flex-col gap-2 bg-black w-full border-t border-b border-cyan-800">
-          <h2 className="text-lg">{description}</h2>
-          <p className="">
-            {`🗺️ ${location.name}, ${location.country.name}. (${location.coordinates})`}
-          </p>
-          <p className="">📷{camera.name}</p>
-          <p className="">🎞️{film.name}</p>
-          {labels.map((label, index) => {
-            return (
-              <p className="text-gray-400" key={index}>
-                #{label.name}
-              </p>
-            );
-          })}
-        </div>
+        <section className="flex flex-col justify-center text-gray-400">
+          <div>
+            <h3>
+              <span className="text-2xl">📷</span> {camera.name}
+            </h3>
+            <h3>
+              <span className="text-2xl">🎞️</span> {film.name}
+            </h3>
+            <h3>
+              <span className="text-2xl">🗺️</span>{" "}
+              {`${location.name}, ${location.country.name}. (${location.coordinates})`}
+            </h3>
+          </div>
+
+          <article className="mt-2 flex gap-1">
+            {labels.map((label, index) => {
+              return (
+                <p
+                  className="me-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300"
+                  key={index}
+                >
+                  #{label.name}
+                </p>
+              );
+            })}
+          </article>
+        </section>
       </article>
     </Modal>
   );
