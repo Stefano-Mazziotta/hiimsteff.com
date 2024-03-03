@@ -2,6 +2,7 @@ import { albums } from "@/placeholder-data";
 import { Modal } from "./modal";
 import { getAlbum } from "@/lib/api";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function PhotoModal({
   params: { slug, id },
@@ -21,43 +22,23 @@ export default function PhotoModal({
 
   return (
     <Modal>
-      <article className="flex flex-col items-start justify-center gap-1">
-        <div className="flex max-h-[620px]">
+      <article className="flex flex-col gap-2">
+        <div className="flex max-h-[620px]  lg:max-h-[787px]">
+          {/* 787px */}
           <Image
             src={path}
             width={1920}
             height={1080}
             alt={description}
-            className="object-contain"
+            className="w-full border-2 border-white object-contain"
           />
         </div>
-        <section className="flex flex-col justify-center text-gray-400">
-          <div>
-            <h3>
-              <span className="text-2xl">📷</span> {camera.name}
-            </h3>
-            <h3>
-              <span className="text-2xl">🎞️</span> {film.name}
-            </h3>
-            <h3>
-              <span className="text-2xl">🗺️</span>{" "}
-              {`${location.name}, ${location.country.name}. (${location.coordinates})`}
-            </h3>
-          </div>
-
-          <article className="mt-2 flex gap-1">
-            {labels.map((label, index) => {
-              return (
-                <p
-                  className="me-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300"
-                  key={index}
-                >
-                  #{label.name}
-                </p>
-              );
-            })}
-          </article>
-        </section>
+        <footer className="flex justify-between text-sm text-gray-400">
+          <p className=" ">
+            {location.name}, {location.country.name}.
+          </p>
+          <p className="text-gray-400">1/24</p>
+        </footer>
       </article>
     </Modal>
   );
