@@ -16,9 +16,9 @@ export default function GalleryCard({
 
   return (
     <Link href={url} passHref>
-      <div className="relative mb-3 md:before:content-[''] md:before:absolute md:before:inset-0 md:before:bg-black md:before:transition-opacity md:before:bg-opacity-40 md:hover:before:bg-opacity-0 md:hover:cursor-zoom-in">
+      <div className="relative mb-3 md:before:absolute md:before:inset-0 md:before:bg-black md:before:bg-opacity-40 md:before:transition-opacity md:before:content-[''] md:hover:cursor-zoom-in md:hover:before:bg-opacity-0">
         <Image
-          className="w-full"
+          className="w-full border-2 border-white md:border-4"
           src={photo.path}
           alt={photo.description}
           width={800}

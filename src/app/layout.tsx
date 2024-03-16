@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Cutive } from "next/font/google";
-import "./globals.css";
 import Header from "@/ui/header";
 import Footer from "@/ui/footer";
+
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 const cutive = Cutive({

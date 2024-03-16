@@ -30,7 +30,7 @@ export default function PhotoModal({
             width={1920}
             height={1080}
             alt={description}
-            className="w-full border-2 border-white object-contain"
+            className="w-full object-contain"
           />
         </div>
         <footer className="flex justify-between text-sm text-gray-400">

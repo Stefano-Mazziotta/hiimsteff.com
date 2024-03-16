@@ -3,6 +3,12 @@
 import { type ElementRef, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { createPortal } from "react-dom";
+import {
+  CloseIcon,
+  DownloadIcon,
+  NavigateBefore,
+  NavigateNext,
+} from "@/ui/icons";
 
 export function Modal({ children }: { children: React.ReactNode }) {
   const router = useRouter();
@@ -23,14 +29,20 @@ export function Modal({ children }: { children: React.ReactNode }) {
       <div className="flex flex-col justify-start gap-2 lg:max-w-4xl">
         <header className="flex justify-between">
           <div className="flex gap-5">
-            <div className="flex">
-              <button>◀️</button>
-              <button>▶️</button>
+            <div className="flex fill-gray-400">
+              <button>
+                <NavigateBefore />
+              </button>
+              <button>
+                <NavigateNext />
+              </button>
             </div>
-            <button>💾</button>
+            <button className="fill-gray-400">
+              <DownloadIcon />
+            </button>
           </div>
-          <button className="text-gray-400" type="button" onClick={onDismiss}>
-            X
+          <button className="fill-gray-400" type="button" onClick={onDismiss}>
+            <CloseIcon />
           </button>
         </header>
         {children}
