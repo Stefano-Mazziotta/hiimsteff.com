@@ -1,5 +1,5 @@
 import { albums } from "@/placeholder-data";
-import { Modal } from "./modal";
+import { Modal } from "../../../../ui/modal/modal";
 import { getAlbum } from "@/lib/api";
 import Image from "next/image";
 import Link from "next/link";
