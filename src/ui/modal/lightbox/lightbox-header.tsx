@@ -1,12 +1,9 @@
-import { useRouter } from "next/navigation";
-import {
-  CloseIcon,
-  DownloadIcon,
-  NavigateBefore,
-  NavigateNext,
-} from "../icons";
+"use client";
 
-export function ModalHeader() {
+import { useRouter } from "next/navigation";
+import { CloseIcon, DownloadIcon, ShareIcon } from "../../icons";
+
+export function LightboxHeader() {
   const router = useRouter();
 
   function onDismiss() {
@@ -15,17 +12,12 @@ export function ModalHeader() {
 
   return (
     <header className="flex justify-between">
-      <div className="flex gap-5">
-        <div className="flex fill-gray-400">
-          <button>
-            <NavigateBefore />
-          </button>
-          <button>
-            <NavigateNext />
-          </button>
-        </div>
+      <div className="flex gap-1">
         <button className="fill-gray-400">
           <DownloadIcon />
+        </button>
+        <button className="fill-gray-400">
+          <ShareIcon />
         </button>
       </div>
       <button

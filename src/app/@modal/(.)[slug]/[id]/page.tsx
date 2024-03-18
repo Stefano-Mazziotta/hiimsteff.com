@@ -1,10 +1,11 @@
-import { albums } from "@/placeholder-data";
-import { Modal } from "../../../../ui/modal/modal";
 import { getAlbum } from "@/lib/api";
+import { NavigateBeforeIcon, NavigateNextIcon } from "@/ui/icons";
+import { Lightbox } from "@/ui/modal/lightbox/lightbox";
+import { LightboxHeader } from "@/ui/modal/lightbox/lightbox-header";
+import { Modal } from "@/ui/modal/modal";
 import Image from "next/image";
-import Link from "next/link";
 
-export default function PhotoModal({
+export default function LightboxPage({
   params: { slug, id },
 }: {
   params: { slug: string; id: string };
@@ -18,28 +19,9 @@ export default function PhotoModal({
   const photo = album.photos.find((photo) => photo.id === id);
   if (!photo) return;
 
-  const { description, path, location, camera, film, labels } = photo;
-
   return (
     <Modal>
-      <article className="flex flex-col gap-2">
-        <div className="flex max-h-[620px]  lg:max-h-[787px]">
-          {/* 787px */}
-          <Image
-            src={path}
-            width={1920}
-            height={1080}
-            alt={description}
-            className="w-full object-contain"
-          />
-        </div>
-        <footer className="flex justify-between text-sm text-gray-400">
-          <p className=" ">
-            {location.name}, {location.country.name}.
-          </p>
-          <p className="text-gray-400">1/24</p>
-        </footer>
-      </article>
+      <Lightbox photo={photo} />
     </Modal>
   );
 }
