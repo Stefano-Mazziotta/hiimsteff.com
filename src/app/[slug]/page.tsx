@@ -20,8 +20,7 @@ export default function AlbumPage({
   const { photos, description } = album;
 
   return (
-    <section className="px-4 relative">
-      <div id="modal-root" className="sticky top-0 left-0 z-50" />
+    <section className="relative px-4">
       <GalleryBanner slug={slug} description={description} />
       <GalleryGrid slug={slug} photos={photos} />
     </section>
