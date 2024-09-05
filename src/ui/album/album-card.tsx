@@ -12,8 +12,8 @@ export default async function AlbumCard({ album }: { album: album }) {
 
   return (
     <Link
-      href={`/${slug}`}
-      className="group relative isolate flex flex-col justify-end h-100 min-h-60 w-full z-10"
+      href={`/gallery/${slug}`}
+      className="h-100 group relative isolate z-10 flex min-h-60 w-full flex-col justify-end"
     >
       <Image
         src={imgURL}
@@ -26,7 +26,7 @@ export default async function AlbumCard({ album }: { album: album }) {
         priority
       />
       <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/30 md:transition-opacity md:group-hover:opacity-70"></div>
-      <h2 className="z-10 w-fit inline-block ml-2 mb-2 py-1 px-2 text-base font-semibold text-white bg-black bg-opacity-100 md:bg-opacity-60 md:transition-all md:group-hover:bg-opacity-100">
+      <h2 className="z-10 mb-2 ml-2 inline-block w-fit bg-black bg-opacity-100 px-2 py-1 text-base font-semibold text-white md:bg-opacity-60 md:transition-all md:group-hover:bg-opacity-100">
         {title}
       </h2>
     </Link>

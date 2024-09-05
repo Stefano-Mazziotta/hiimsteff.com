@@ -12,7 +12,7 @@ export default function GalleryCard({
   photo: photo;
   slug: string;
 }) {
-  const url = `/${slug}/${photo.id}`;
+  const url = `${slug}/${photo.id}`;
 
   return (
     <Link href={url} passHref>
