@@ -35,7 +35,7 @@ export const albums: album[] = [
     title: "ROSARIO",
     description: "Messi's City",
     slug: "rosario",
-    featuredPhoto: "/albums/the-creation/F1160004.JPG",
+    featuredPhoto: "/albums/the-creation/F1160004.jpg",
     photos: [
       {
         id: "2b3f24cc-062a-4480-aaca-8ab3877b284e",
@@ -61,7 +61,7 @@ export const albums: album[] = [
     title: "HISTORY",
     description: "Fragments of time",
     slug: "history",
-    featuredPhoto: "/albums/light-city/F2350027.JPG",
+    featuredPhoto: "/albums/light-city/F2350027.jpg",
     photos: [
       {
         id: "6732983f-3346-4465-a359-5cabeb556c90",
@@ -86,7 +86,7 @@ export const albums: album[] = [
     title: "PARIS",
     description: "Light City",
     slug: "paris",
-    featuredPhoto: "/albums/marble-humans/000028.JPG",
+    featuredPhoto: "/albums/marble-humans/000028.jpg",
     labels: [],
     photos: [
       {
@@ -112,7 +112,7 @@ export const albums: album[] = [
 export const photos: photo[] = [
   {
     id: "bc09e24d-6d8a-4fc0-9400-e1fc9c36bbd2",
-    path: "/albums/F2530010.JPG",
+    path: "/albums/F2530010.jpg",
     description: "light's show",
     width: 200,
     height: 100,
