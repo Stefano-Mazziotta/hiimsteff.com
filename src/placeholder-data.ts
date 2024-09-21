@@ -61,7 +61,7 @@ export const albums: album[] = [
     title: "HISTORY",
     description: "Fragments of time",
     slug: "history",
-    featuredPhoto: "/albums/history/history(1).jpg",
+    featuredPhoto: "/albums/history/history(9).jpg",
     photos: [
       {
         id: "6732983f-3346-4465-a359-5cabeb556c90",
