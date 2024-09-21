@@ -29,7 +29,6 @@ export default async function AlbumCard({ album }: { album: album }) {
       <h2 className="z-10 mb-2 ml-2 inline-block w-fit bg-black bg-opacity-100 px-2 py-1 text-base font-semibold text-white md:bg-opacity-60 md:transition-all md:group-hover:bg-opacity-100">
         {title}
       </h2>
-      <p>{imgURL}</p>
     </Link>
   );
 }
