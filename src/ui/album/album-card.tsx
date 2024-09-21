@@ -16,7 +16,7 @@ export default async function AlbumCard({ album }: { album: album }) {
       className="h-100 group relative isolate z-10 flex min-h-60 w-full flex-col justify-end"
     >
       <Image
-        src={imgURL}
+        src={featuredPhoto}
         alt={title}
         width={1280}
         height={720}
