@@ -35,7 +35,7 @@ export const albums: album[] = [
     title: "La Cordillera",
     description: "Columna vertebral de América del sur",
     slug: "la-cordillera",
-    featuredPhoto: "/albums/la-cordillera/the-creation (11).jpg",
+    featuredPhoto: "/albums/la-cordillera/the-creation(11).jpg",
     photos: [
       {
         id: "2b3f24cc-062a-4480-aaca-8ab3877b284e",
@@ -61,7 +61,7 @@ export const albums: album[] = [
     title: "HISTORY",
     description: "Fragments of time",
     slug: "history",
-    featuredPhoto: "/albums/light-city/light-city (6).jpg",
+    featuredPhoto: "/albums/history/history(1).jpg",
     photos: [
       {
         id: "6732983f-3346-4465-a359-5cabeb556c90",
@@ -86,7 +86,7 @@ export const albums: album[] = [
     title: "PARIS",
     description: "Light City",
     slug: "paris",
-    featuredPhoto: "/albums/light-city/light-city (6).jpg",
+    featuredPhoto: "/albums/light-city/light-city(6).jpg",
     labels: [],
     photos: [
       {
