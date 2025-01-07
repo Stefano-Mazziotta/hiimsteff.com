@@ -1,8 +1,8 @@
 import { album } from "@/definitions/album";
-import Link from "next/link";
-import Image from "next/image";
 import { getBase64 } from "@/lib/get-base64";
 import getURL from "@/lib/get-url";
+import Image from "next/image";
+import Link from "next/link";
 
 export default async function AlbumCard({ album }: { album: album }) {
   const { slug, title, featuredPhoto } = album;

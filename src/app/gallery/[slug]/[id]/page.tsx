@@ -24,35 +24,37 @@ export default function AlbumPhotoPage({
   const { description, path, location, camera, film, labels } = photo;
 
   return (
-    <section className="px-4">
-      <Image src={path} alt={description} width={800} height={500}></Image>
-      <section className="flex flex-col justify-center text-gray-400">
-        <div>
-          <h3>
-            <span className="text-2xl">📷</span> {camera.name}
-          </h3>
-          <h3>
-            <span className="text-2xl">🎞️</span> {film.name}
-          </h3>
-          <h3>
-            <span className="text-2xl">🗺️</span>{" "}
-            {`${location.name}, ${location.country.name}. (${location.coordinates})`}
-          </h3>
-        </div>
+    <section className="flex flex-col items-center justify-center px-4">
+      <div>
+        <Image src={path} alt={description} width={800} height={500}></Image>
+        <article className="flex flex-col justify-center text-gray-400">
+          <div>
+            <h3>
+              <span className="text-2xl">📷</span> {camera.name}
+            </h3>
+            <h3>
+              <span className="text-2xl">🎞️</span> {film.name}
+            </h3>
+            <h3>
+              <span className="text-2xl">🗺️</span>{" "}
+              {`${location.name}, ${location.country.name}. (${location.coordinates})`}
+            </h3>
+          </div>
 
-        <article className="mt-2 flex gap-1">
-          {labels.map((label, index) => {
-            return (
-              <p
-                className="me-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300"
-                key={index}
-              >
-                #{label.name}
-              </p>
-            );
-          })}
+          <div className="mt-2 flex items-start justify-start gap-1">
+            {labels.map((label, index) => {
+              return (
+                <p
+                  className="me-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300"
+                  key={index}
+                >
+                  #{label.name}
+                </p>
+              );
+            })}
+          </div>
         </article>
-      </section>
+      </div>
     </section>
   );
 }
