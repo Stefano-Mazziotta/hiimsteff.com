@@ -13,7 +13,7 @@
     "plaiceholder": "^3.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.1"
   },
   "devDependencies": {
     "@types/node": "^20.17.12",
