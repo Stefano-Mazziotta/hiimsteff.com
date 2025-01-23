@@ -1,4 +1,4 @@
-import { photo } from "@/definitions/photo";
+import { photo } from "@/typess/photo";
 import GalleryCard from "./gallery-card";
 
 export default function GalleryGrid({

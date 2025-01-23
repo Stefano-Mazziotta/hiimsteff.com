@@ -1,4 +1,4 @@
-import { photo } from "@/definitions/photo";
+import { photo } from "@/typess/photo";
 import Image from "next/image";
 
 export default function HorizontalScroll({
@@ -17,10 +17,10 @@ export default function HorizontalScroll({
     "[mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-150px),transparent_100%)]";
   return (
     <main
-      className={`w-full inline-flex flex-nowrap overflow-hidden ${gradient}`}
+      className={`inline-flex w-full flex-nowrap overflow-hidden ${gradient}`}
     >
       <ul
-        className={`flex md:justify-start [&_li]:mx-1 [&_img]:max-w-none ${scrollAnimation}`}
+        className={`flex md:justify-start [&_img]:max-w-none [&_li]:mx-1 ${scrollAnimation}`}
       >
         {photos.map((photo, index) => {
           return (

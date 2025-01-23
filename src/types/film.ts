@@ -1,4 +1,4 @@
-export type label = {
+export interface Film {
   id: number;
   name: string;
-};
+}
