@@ -1,7 +1,7 @@
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 import type { Metadata } from "next";
-import { Inter, Cutive } from "next/font/google";
-import Header from "@/ui/header";
-import Footer from "@/ui/footer";
+import { Cutive, Inter } from "next/font/google";
 
 import "./globals.css";
 

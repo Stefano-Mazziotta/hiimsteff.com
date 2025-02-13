@@ -1,7 +1,7 @@
+import GalleryBanner from "@/components/gallery/gallery-banner";
+import GalleryGrid from "@/components/gallery/gallery-grid";
 import albumsMock from "@/mocks/albums.json";
 import { Album } from "@/types/album";
-import GalleryBanner from "@/ui/gallery/gallery-banner";
-import GalleryGrid from "@/ui/gallery/gallery-grid";
 
 export default function AlbumPage({
   params,

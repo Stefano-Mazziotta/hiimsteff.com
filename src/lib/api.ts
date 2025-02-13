@@ -1,6 +1,7 @@
-import { albums } from "@/placeholder-data";
-import { album } from "@/typess/album";
+import albumsMock from "@/mocks/albums.json";
+import { Album } from "@/types/album";
 
-export function getAlbum(slug: string): album | null {
+export function getAlbum(slug: string): Album | null {
+  const albums: Album[] = albumsMock;
   return albums.find((album) => album.slug === slug) || null;
 }
