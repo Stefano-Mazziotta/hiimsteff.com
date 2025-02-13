@@ -1,11 +1,11 @@
-import { photo } from "@/typess/photo";
+import { Photo } from "@/types/photo";
 import Image from "next/image";
 
 export default function HorizontalScroll({
   photos,
   direction,
 }: {
-  photos: photo[];
+  photos: Photo[];
   direction: "left" | "right";
 }) {
   console.time();
