@@ -1,6 +1,6 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
-import type Metadata from "next";
+// import type { Metadata } from "next";
 import { Cutive, Inter } from "next/font/google";
 
 import "./globals.css";
@@ -13,7 +13,7 @@ const cutive = Cutive({
   variable: "--font-cutive",
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "SMZT PHOTOGRAPHY",
   description: "Analog photographies",
 };
