@@ -35,9 +35,6 @@
     "typescript": "^5"
   },
   "pnpm": {
-    "ignoredBuiltDependencies": [
-      "sharp"
-    ],
     "onlyBuiltDependencies": [
       "sharp"
     ]
