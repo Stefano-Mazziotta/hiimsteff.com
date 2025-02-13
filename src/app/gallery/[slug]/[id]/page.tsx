@@ -1,4 +1,5 @@
-import { albums } from "@/placeholder-data";
+import albumsMock from "@/mocks/albums.json";
+import { Album } from "@/types/album";
 import Image from "next/image";
 
 export default function AlbumPhotoPage({
@@ -8,6 +9,7 @@ export default function AlbumPhotoPage({
 }) {
   const { slug, id } = params;
 
+  const albums: Album[] = albumsMock;
   const album = albums.find((album) => album.slug === slug) || null;
   if (!album) {
     return;
@@ -28,12 +30,17 @@ export default function AlbumPhotoPage({
       <Image src={path} alt={description} width={800} height={500}></Image>
       <section className="flex flex-col justify-center text-gray-400">
         <div>
-          <h3>
-            <span className="text-2xl">📷</span> {camera.name}
-          </h3>
-          <h3>
-            <span className="text-2xl">🎞️</span> {film.name}
-          </h3>
+          {camera && (
+            <h3>
+              <span className="text-2xl">📷</span> {camera.name}
+            </h3>
+          )}
+
+          {film && (
+            <h3>
+              <span className="text-2xl">🎞️</span> {film.name}
+            </h3>
+          )}
           <h3>
             <span className="text-2xl">🗺️</span>{" "}
             {`${location.name}, ${location.country.name}. (${location.coordinates})`}

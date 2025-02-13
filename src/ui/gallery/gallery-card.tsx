@@ -19,7 +19,7 @@ export default function GalleryCard({
       <div className="relative mb-3 md:before:absolute md:before:inset-0 md:before:bg-black md:before:bg-opacity-40 md:before:transition-opacity md:before:content-[''] md:hover:cursor-zoom-in md:hover:before:bg-opacity-0">
         <Image
           className="w-full border-2 border-white md:border-4"
-          src={"photo.path"}
+          src={photo.path}
           alt={photo.description}
           width={800}
           height={600}

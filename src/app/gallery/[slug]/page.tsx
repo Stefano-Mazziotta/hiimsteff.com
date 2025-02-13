@@ -1,4 +1,5 @@
-import { albums } from "@/placeholder-data";
+import albumsMock from "@/mocks/albums.json";
+import { Album } from "@/types/album";
 import GalleryBanner from "@/ui/gallery/gallery-banner";
 import GalleryGrid from "@/ui/gallery/gallery-grid";
 
@@ -10,7 +11,8 @@ export default function AlbumPage({
   };
 }) {
   const { slug } = params;
-
+  // get album by slug to backend
+  const albums: Album[] = albumsMock;
   const album = albums.find((album) => album.slug === slug);
 
   if (!album) {

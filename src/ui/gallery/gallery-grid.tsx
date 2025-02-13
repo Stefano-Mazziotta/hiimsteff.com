@@ -1,11 +1,11 @@
-import { photo } from "@/typess/photo";
+import { Photo } from "@/types/photo";
 import GalleryCard from "./gallery-card";
 
 export default function GalleryGrid({
   photos,
   slug,
 }: {
-  photos: photo[];
+  photos: Photo[];
   slug: string;
 }) {
   return (
