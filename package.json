@@ -17,7 +17,7 @@
     "plaiceholder": "^3.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "sharp": "^0.33.1",
+    "sharp": "0.33.1",
     "tailwind-merge": "^3.0.1"
   },
   "devDependencies": {
