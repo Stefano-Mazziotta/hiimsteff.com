@@ -17,7 +17,7 @@ export default function AlbumPhotoPage({
 
   const albumDescription = album.description || "24 images";
 
-  const photo = album.photos.find((photo) => (photo.id = id));
+  const photo = album.photos.find((photo) => photo.id === id);
 
   if (!photo) {
     return;
@@ -47,20 +47,19 @@ export default function AlbumPhotoPage({
           </h3>
         </div>
 
-          <div className="mt-2 flex items-start justify-start gap-1">
-            {labels.map((label, index) => {
-              return (
-                <p
-                  className="me-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300"
-                  key={index}
-                >
-                  #{label.name}
-                </p>
-              );
-            })}
-          </div>
-        </article>
-      </div>
+        <div className="mt-2 flex items-start justify-start gap-1">
+          {labels.map((label, index) => {
+            return (
+              <p
+                className="me-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300"
+                key={index}
+              >
+                #{label.name}
+              </p>
+            );
+          })}
+        </div>
+      </section>
     </section>
   );
 }
