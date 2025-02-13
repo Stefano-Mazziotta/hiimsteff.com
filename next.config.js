@@ -10,7 +10,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "smzt-com.vercel.app",
+        hostname: "hiimsteff.com",
         port: "",
         pathname: "**",
       },
