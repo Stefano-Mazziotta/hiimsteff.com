@@ -1,6 +1,6 @@
-import { label } from "@/typess/label";
+import { Label } from "@/types/label";
 
-export function Label({ label }: { label: label }) {
+export function Badge({ label }: { label: Label }) {
   const { name } = label;
   return (
     <p
