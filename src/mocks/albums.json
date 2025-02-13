@@ -4,12 +4,246 @@
         "labels": [],
         "title": "Argentina",
         "description": "Columna vertebral de América del sur",
-        "slug": "la-cordillera",
-        "featuredPhoto": "/albums/la-cordillera/the-creation(11).jpg",
+        "slug": "argentina",
+        "featuredPhoto": "/albums/argentina/argentina(1).webp",
         "photos": [
             {
                 "id": "2b3f24cc-062a-4480-aaca-8ab3877b284e",
-                "path": "/albums/la-cordillera/the-creation (10).jpg",
+                "path": "/albums/argentina/argentina(1).webp",
+                "width": 1999,
+                "height": 3000,
+                "description": "Cordillera de los andes",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Cordillera De los Andes",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "2b3f24cc-062a-4480-aaca-8ab3877b284a",
+                "path": "/albums/argentina/argentina(2).webp",
+                "width": 1999,
+                "height": 3000,
+                "description": "Cordillera de los andes",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Cordillera De los Andes",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "2b3f24cc-062a-4480-aaca-8ab3877b284c",
+                "path": "/albums/argentina/argentina(3).webp",
+                "width": 1999,
+                "height": 3000,
+                "description": "Cordillera de los andes",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Cordillera De los Andes",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "2b3f24cc-062a-4480-aaca-8ab3877b284d",
+                "path": "/albums/argentina/argentina(4).webp",
+                "width": 1999,
+                "height": 3000,
+                "description": "Cordillera de los andes",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Cordillera De los Andes",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "2b3f24cc-062a-4480-aaca-8ab3877b284x",
+                "path": "/albums/argentina/argentina(5).webp",
+                "width": 1999,
+                "height": 3000,
+                "description": "Cordillera de los andes",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Cordillera De los Andes",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "2b3f24cc-062a-4480-aaca-8ab3877b284z",
+                "path": "/albums/argentina/argentina(6).webp",
+                "width": 1999,
+                "height": 3000,
+                "description": "Cordillera de los andes",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Cordillera De los Andes",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "2b3f24cc-062a-4480-aaca-8ab3877b2z4e",
+                "path": "/albums/argentina/argentina(7).webp",
+                "width": 1999,
+                "height": 3000,
+                "description": "Cordillera de los andes",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Cordillera De los Andes",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "2b3f24cc-062a-4480-aaca-8ab3877b28qqe",
+                "path": "/albums/argentina/argentina(8).webp",
+                "width": 1999,
+                "height": 3000,
+                "description": "Cordillera de los andes",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Cordillera De los Andes",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "2b3f24cc-062a-4480-aaca-8ab3877b284p",
+                "path": "/albums/argentina/argentina(9).webp",
+                "width": 1999,
+                "height": 3000,
+                "description": "Cordillera de los andes",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Cordillera De los Andes",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "2b3f24cc-062a-4480-aaca-8ab3877b284m",
+                "path": "/albums/argentina/argentina(10).webp",
                 "width": 1999,
                 "height": 3000,
                 "description": "Cordillera de los andes",
@@ -38,14 +272,248 @@
     {
         "id": 2,
         "labels": [],
-        "title": "Italia",
+        "title": "Italy",
         "description": "Fragments of time",
-        "slug": "history",
-        "featuredPhoto": "/albums/history/history(9).jpg",
+        "slug": "italy",
+        "featuredPhoto": "/albums/italy/italy(1).webp",
         "photos": [
             {
                 "id": "6732983f-3346-4465-a359-5cabeb556c90",
-                "path": "/albums/history/history (7).jpg",
+                "path": "/albums/italy/italy(1).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "La Pieta",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Firenze, Museo dell'Opera del Duomo",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4465-a359-5cabeb556c9l",
+                "path": "/albums/italy/italy(2).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "La Pieta",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Firenze, Museo dell'Opera del Duomo",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4465-a359-5cabeb556c9x",
+                "path": "/albums/italy/italy(3).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "La Pieta",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Firenze, Museo dell'Opera del Duomo",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4465-a359-5cabeb556c9k",
+                "path": "/albums/italy/italy(4).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "La Pieta",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Firenze, Museo dell'Opera del Duomo",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4465-a359-5cabeb556c9o",
+                "path": "/albums/italy/italy(5).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "La Pieta",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Firenze, Museo dell'Opera del Duomo",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4465-a359-5cabeb556c9i",
+                "path": "/albums/italy/italy(6).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "La Pieta",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Firenze, Museo dell'Opera del Duomo",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4465-a359-5cabeb556c9u",
+                "path": "/albums/italy/italy(7).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "La Pieta",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Firenze, Museo dell'Opera del Duomo",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4465-a359-4cabeb556c9o",
+                "path": "/albums/italy/italy(8).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "La Pieta",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Firenze, Museo dell'Opera del Duomo",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4565-a459-5cabeb556c9o",
+                "path": "/albums/italy/italy(9).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "La Pieta",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Firenze, Museo dell'Opera del Duomo",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4465-a359-5cabeb445c8o",
+                "path": "/albums/italy/italy(10).webp",
                 "width": 1043,
                 "height": 1664,
                 "description": "La Pieta",
@@ -73,15 +541,249 @@
     },
     {
         "id": 3,
-        "title": "España",
+        "title": "Spain",
         "description": "Light City",
-        "slug": "paris",
-        "featuredPhoto": "/albums/light-city/light-city(6).jpg",
+        "slug": "spain",
+        "featuredPhoto": "/albums/spain/spain(1).webp",
         "labels": [],
         "photos": [
             {
                 "id": "6732983f-3346-4465-a359-5cabeb556c90",
-                "path": "/albums/light-city/light-city (5).jpg",
+                "path": "/albums/spain/spain(1).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "walking on a dream",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Paris, Louvre Avenue",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4465-a359-5cabeb556c91",
+                "path": "/albums/spain/spain(2).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "walking on a dream",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Paris, Louvre Avenue",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4465-a359-5cabeb556d81",
+                "path": "/albums/spain/spain(3).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "walking on a dream",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Paris, Louvre Avenue",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4465-a359-5cabeb346c90",
+                "path": "/albums/spain/spain(4).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "walking on a dream",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Paris, Louvre Avenue",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4465-a359-5cabeb546c97",
+                "path": "/albums/spain/spain(5).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "walking on a dream",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Paris, Louvre Avenue",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4465-a359-5sdeeb556c91",
+                "path": "/albums/spain/spain(6).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "walking on a dream",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Paris, Louvre Avenue",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-4465-a359-5caqeb445c91",
+                "path": "/albums/spain/spain(7).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "walking on a dream",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Paris, Louvre Avenue",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "6732983f-3346-3254-a359-5apweb556c91",
+                "path": "/albums/spain/spain(8).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "walking on a dream",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Paris, Louvre Avenue",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "5621872g-3346-4465-a359-5cabeb556c91",
+                "path": "/albums/spain/spain(9).webp",
+                "width": 1043,
+                "height": 1664,
+                "description": "walking on a dream",
+                "camera": {
+                    "id": 1,
+                    "name": "Asahi Pentax K1000",
+                    "productionYear": 1976
+                },
+                "film": {
+                    "id": 1,
+                    "name": "Ilford Pan 100"
+                },
+                "labels": [],
+                "location": {
+                    "id": 1,
+                    "name": "Paris, Louvre Avenue",
+                    "coordinates": "-32.938865, -60.636305",
+                    "country": {
+                        "id": 1,
+                        "name": "Argentina"
+                    }
+                }
+            },
+            {
+                "id": "5621872g-3346-1603-a359-4sabeb556c91",
+                "path": "/albums/spain/spain(10).webp",
                 "width": 1043,
                 "height": 1664,
                 "description": "walking on a dream",

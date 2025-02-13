@@ -1,6 +1,6 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
-import type { Metadata } from "next";
+import type Metadata from "next";
 import { Cutive, Inter } from "next/font/google";
 
 import "./globals.css";
@@ -21,7 +21,10 @@ export const metadata: Metadata = {
 export default function RootLayout(props: { children: React.ReactNode }) {
   return (
     <html lang="en" className={cutive.variable}>
-      <body className={inter.className}>
+      <body
+        className={`${inter.className} bg-primary text-secondary`}
+        suppressHydrationWarning={true}
+      >
         <Header />
         {props.children}
         <Footer />
