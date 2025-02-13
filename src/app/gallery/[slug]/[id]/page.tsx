@@ -47,19 +47,20 @@ export default function AlbumPhotoPage({
           </h3>
         </div>
 
-        <article className="mt-2 flex gap-1">
-          {labels.map((label, index) => {
-            return (
-              <p
-                className="me-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300"
-                key={index}
-              >
-                #{label.name}
-              </p>
-            );
-          })}
+          <div className="mt-2 flex items-start justify-start gap-1">
+            {labels.map((label, index) => {
+              return (
+                <p
+                  className="me-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300"
+                  key={index}
+                >
+                  #{label.name}
+                </p>
+              );
+            })}
+          </div>
         </article>
-      </section>
+      </div>
     </section>
   );
 }
