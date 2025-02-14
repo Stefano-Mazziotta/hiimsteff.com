@@ -273,7 +273,7 @@
         "id": 2,
         "labels": [],
         "title": "Italy",
-        "description": "History, Art, Cuisine.",
+        "description": "History, art, cuisine.",
         "slug": "italy",
         "featuredPhoto": "/albums/italy/italy(10).webp",
         "photos": [
@@ -542,7 +542,7 @@
     {
         "id": 3,
         "title": "Spain",
-        "description": "Heritage, Vibrance, Contrast",
+        "description": "Heritage, vibrance, contrast.",
         "slug": "spain",
         "featuredPhoto": "/albums/spain/spain(1).webp",
         "labels": [],
