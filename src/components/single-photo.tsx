@@ -1,0 +1,90 @@
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import type { Photo } from "@/types/photo";
+import {
+  ArrowLeftIcon,
+  CameraIcon,
+  FilmIcon,
+  MapPinIcon,
+  TagIcon,
+} from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+
+export default function SinglePhoto({
+  photo,
+  slug,
+}: {
+  photo: Photo;
+  slug: string;
+}) {
+  const { description, path, location, camera, film, labels } = photo;
+
+  return (
+    <section className="flex flex-col items-start gap-5 md:h-screen md:flex-row md:gap-10">
+      <Link
+        href={`/gallery/${slug}`}
+        className="z-10 md:transition-transform md:hover:translate-x-[-3px]"
+      >
+        <ArrowLeftIcon className="h-6 w-6" />
+      </Link>
+      <div className="w-full md:w-1/2 md:max-w-md">
+        <Image
+          src={path || "/placeholder.svg"}
+          alt={description}
+          width={800}
+          height={500}
+          className="h-auto w-full shadow-lg"
+        />
+      </div>
+      <div className="w-full space-y-4 md:w-1/2">
+        <Card className="rounded-none">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <MapPinIcon className="h-5 w-5" />
+              Location
+            </CardTitle>
+          </CardHeader>
+          <CardContent>{`${location.name}, ${location.country.name}.`}</CardContent>
+        </Card>
+        <Card className="rounded-none">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <CameraIcon className="h-5 w-5" />
+              Camera
+            </CardTitle>
+          </CardHeader>
+          <CardContent>{camera?.name}</CardContent>
+        </Card>
+        <Card className="rounded-none">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <FilmIcon className="h-5 w-5" />
+              Film
+            </CardTitle>
+          </CardHeader>
+          <CardContent>{film?.name}</CardContent>
+        </Card>
+        <Card className="rounded-none">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <TagIcon className="h-5 w-5" />
+              Labels
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="flex flex-wrap gap-2">
+              {labels.map((label, index) => (
+                <span
+                  key={index}
+                  className="bg-secondary px-2 py-1 text-sm text-secondary-foreground"
+                >
+                  {label.name}
+                </span>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+    </section>
+  );
+}
