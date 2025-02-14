@@ -3,7 +3,7 @@
         "id": 1,
         "labels": [],
         "title": "Argentina",
-        "description": "Columna vertebral de América del sur",
+        "description": "Nature, culture, diversity.",
         "slug": "argentina",
         "featuredPhoto": "/albums/argentina/argentina(1).webp",
         "photos": [
@@ -12,7 +12,7 @@
                 "path": "/albums/argentina/argentina(1).webp",
                 "width": 1999,
                 "height": 3000,
-                "description": "Cordillera de los andes",
+                "description": "Monumento Histórico Nacional a la Bandera",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -25,8 +25,8 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Cordillera De los Andes",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Rosario",
+                    "coordinates": "-32.947778, -60.629722",
                     "country": {
                         "id": 1,
                         "name": "Argentina"
@@ -38,7 +38,7 @@
                 "path": "/albums/argentina/argentina(2).webp",
                 "width": 1999,
                 "height": 3000,
-                "description": "Cordillera de los andes",
+                "description": "Monumento Histórico Nacional a la Bandera",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -51,8 +51,8 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Cordillera De los Andes",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Rosario",
+                    "coordinates": "-32.947778, -60.629722",
                     "country": {
                         "id": 1,
                         "name": "Argentina"
@@ -64,7 +64,7 @@
                 "path": "/albums/argentina/argentina(3).webp",
                 "width": 1999,
                 "height": 3000,
-                "description": "Cordillera de los andes",
+                "description": "Obelisco de Buenos Aires",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -77,8 +77,8 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Cordillera De los Andes",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Buenos Aires",
+                    "coordinates": "-34.60361, -58.38167",
                     "country": {
                         "id": 1,
                         "name": "Argentina"
@@ -90,7 +90,7 @@
                 "path": "/albums/argentina/argentina(4).webp",
                 "width": 1999,
                 "height": 3000,
-                "description": "Cordillera de los andes",
+                "description": "Obelisco de Buenos Aires",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -103,8 +103,8 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Cordillera De los Andes",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Buenos Aires",
+                    "coordinates": "-34.60361, -58.38167",
                     "country": {
                         "id": 1,
                         "name": "Argentina"
@@ -116,7 +116,7 @@
                 "path": "/albums/argentina/argentina(5).webp",
                 "width": 1999,
                 "height": 3000,
-                "description": "Cordillera de los andes",
+                "description": "Yo Sí Quiero a Mi País",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -129,8 +129,8 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Cordillera De los Andes",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Rosario",
+                    "coordinates": "-32.947778, -60.629722",
                     "country": {
                         "id": 1,
                         "name": "Argentina"
@@ -142,7 +142,7 @@
                 "path": "/albums/argentina/argentina(6).webp",
                 "width": 1999,
                 "height": 3000,
-                "description": "Cordillera de los andes",
+                "description": "El buen banquete.",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -155,8 +155,8 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Cordillera De los Andes",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Rosario",
+                    "coordinates": "-32.947778, -60.629722",
                     "country": {
                         "id": 1,
                         "name": "Argentina"
@@ -168,7 +168,7 @@
                 "path": "/albums/argentina/argentina(7).webp",
                 "width": 1999,
                 "height": 3000,
-                "description": "Cordillera de los andes",
+                "description": "Sin Disfraz",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -181,8 +181,8 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Cordillera De los Andes",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Rosario",
+                    "coordinates": "-32.9444245193595, -60.63648866085207",
                     "country": {
                         "id": 1,
                         "name": "Argentina"
@@ -194,7 +194,7 @@
                 "path": "/albums/argentina/argentina(8).webp",
                 "width": 1999,
                 "height": 3000,
-                "description": "Cordillera de los andes",
+                "description": "Sin Disfraz",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -207,8 +207,8 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Cordillera De los Andes",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Rosario",
+                    "coordinates": "-32.94511268003041, -60.63805725455935",
                     "country": {
                         "id": 1,
                         "name": "Argentina"
@@ -220,7 +220,7 @@
                 "path": "/albums/argentina/argentina(9).webp",
                 "width": 1999,
                 "height": 3000,
-                "description": "Cordillera de los andes",
+                "description": "Calma y serenidad",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -233,8 +233,8 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Cordillera De los Andes",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Rosario",
+                    "coordinates": "-32.94959302610216, -60.637645550185084",
                     "country": {
                         "id": 1,
                         "name": "Argentina"
@@ -246,7 +246,7 @@
                 "path": "/albums/argentina/argentina(10).webp",
                 "width": 1999,
                 "height": 3000,
-                "description": "Cordillera de los andes",
+                "description": "EDUCACIÓN PÚBLICA SIEMPRE",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -259,8 +259,8 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Cordillera De los Andes",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Rosario",
+                    "coordinates": "-32.947778, -60.629722",
                     "country": {
                         "id": 1,
                         "name": "Argentina"
@@ -273,16 +273,16 @@
         "id": 2,
         "labels": [],
         "title": "Italy",
-        "description": "Fragments of time",
+        "description": "History, Art, Cuisine.",
         "slug": "italy",
-        "featuredPhoto": "/albums/italy/italy(1).webp",
+        "featuredPhoto": "/albums/italy/italy(10).webp",
         "photos": [
             {
                 "id": "6732983f-3346-4465-a359-5cabeb556c90",
                 "path": "/albums/italy/italy(1).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "La Pieta",
+                "description": "Ponte dell'accademia",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -294,12 +294,12 @@
                 },
                 "labels": [],
                 "location": {
-                    "id": 1,
-                    "name": "Firenze, Museo dell'Opera del Duomo",
-                    "coordinates": "-32.938865, -60.636305",
+                    "id": 2,
+                    "name": "Venezia",
+                    "coordinates": "45.43226477991279, 12.329347641497433",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 2,
+                        "name": "Italy"
                     }
                 }
             },
@@ -308,7 +308,7 @@
                 "path": "/albums/italy/italy(2).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "La Pieta",
+                "description": "Ponte Vecchio",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -320,12 +320,12 @@
                 },
                 "labels": [],
                 "location": {
-                    "id": 1,
-                    "name": "Firenze, Museo dell'Opera del Duomo",
-                    "coordinates": "-32.938865, -60.636305",
+                    "id": 3,
+                    "name": "Firenze",
+                    "coordinates": "43.76809542251834, 11.253143497245441",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 2,
+                        "name": "Italy"
                     }
                 }
             },
@@ -334,7 +334,7 @@
                 "path": "/albums/italy/italy(3).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "La Pieta",
+                "description": "Basilica di Santa Croce di Firenze.",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -347,8 +347,8 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Firenze, Museo dell'Opera del Duomo",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Firenze",
+                    "coordinates": "43.76859926196731, 11.263286936621315",
                     "country": {
                         "id": 1,
                         "name": "Argentina"
@@ -360,7 +360,7 @@
                 "path": "/albums/italy/italy(4).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "La Pieta",
+                "description": "Roma en su esplendor.",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -372,12 +372,12 @@
                 },
                 "labels": [],
                 "location": {
-                    "id": 1,
-                    "name": "Firenze, Museo dell'Opera del Duomo",
-                    "coordinates": "-32.938865, -60.636305",
+                    "id": 4,
+                    "name": "Roma",
+                    "coordinates": "41.89818111184863, 12.482802914302127",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 2,
+                        "name": "Italy"
                     }
                 }
             },
@@ -386,7 +386,7 @@
                 "path": "/albums/italy/italy(5).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "La Pieta",
+                "description": "Do you know me?",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -399,8 +399,8 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Firenze, Museo dell'Opera del Duomo",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Roma",
+                    "coordinates": "41.91406056264766, 12.457317745971386",
                     "country": {
                         "id": 1,
                         "name": "Argentina"
@@ -412,7 +412,7 @@
                 "path": "/albums/italy/italy(6).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "La Pieta",
+                "description": "Simetría y armonía.",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -425,11 +425,11 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Firenze, Museo dell'Opera del Duomo",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Roma",
+                    "coordinates": "41.90120872350823, 12.46614591373014",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 2,
+                        "name": "Italy"
                     }
                 }
             },
@@ -438,7 +438,7 @@
                 "path": "/albums/italy/italy(7).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "La Pieta",
+                "description": "Simetria y armonía.",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -451,11 +451,11 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Firenze, Museo dell'Opera del Duomo",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Pisa",
+                    "coordinates": "43.72309928981025, 10.396639912585663",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 2,
+                        "name": "Italy"
                     }
                 }
             },
@@ -464,7 +464,7 @@
                 "path": "/albums/italy/italy(8).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "La Pieta",
+                "description": "Preparativi per il carnevale",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -476,12 +476,12 @@
                 },
                 "labels": [],
                 "location": {
-                    "id": 1,
-                    "name": "Firenze, Museo dell'Opera del Duomo",
-                    "coordinates": "-32.938865, -60.636305",
+                    "id": 4,
+                    "name": "Venezia",
+                    "coordinates": "45.41805004719174, 12.35008566636888",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 2,
+                        "name": "Italy"
                     }
                 }
             },
@@ -490,7 +490,7 @@
                 "path": "/albums/italy/italy(9).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "La Pieta",
+                "description": "Ponte di Rialto",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -502,12 +502,12 @@
                 },
                 "labels": [],
                 "location": {
-                    "id": 1,
-                    "name": "Firenze, Museo dell'Opera del Duomo",
-                    "coordinates": "-32.938865, -60.636305",
+                    "id": 4,
+                    "name": "Venezia",
+                    "coordinates": "45.43813473524845, 12.33596237033328",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 2,
+                        "name": "Italy"
                     }
                 }
             },
@@ -516,7 +516,7 @@
                 "path": "/albums/italy/italy(10).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "La Pieta",
+                "description": "Ponte dell'accademia",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -529,11 +529,11 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Firenze, Museo dell'Opera del Duomo",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Venezia",
+                    "coordinates": "45.43226477991279, 12.329347641497433",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 2,
+                        "name": "Italy"
                     }
                 }
             }
@@ -542,7 +542,7 @@
     {
         "id": 3,
         "title": "Spain",
-        "description": "Light City",
+        "description": "Heritage, Vibrance, Contrast",
         "slug": "spain",
         "featuredPhoto": "/albums/spain/spain(1).webp",
         "labels": [],
@@ -552,7 +552,7 @@
                 "path": "/albums/spain/spain(1).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "walking on a dream",
+                "description": "Mercado de La Boqueria",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -565,11 +565,11 @@
                 "labels": [],
                 "location": {
                     "id": 1,
-                    "name": "Paris, Louvre Avenue",
-                    "coordinates": "-32.938865, -60.636305",
+                    "name": "Barcelona",
+                    "coordinates": "41.382383876980526, 2.1714939667123625",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 3,
+                        "name": "Spain"
                     }
                 }
             },
@@ -578,7 +578,7 @@
                 "path": "/albums/spain/spain(2).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "walking on a dream",
+                "description": "Arc de Triomf de Barcelona",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -590,12 +590,12 @@
                 },
                 "labels": [],
                 "location": {
-                    "id": 1,
-                    "name": "Paris, Louvre Avenue",
-                    "coordinates": "-32.938865, -60.636305",
+                    "id": 5,
+                    "name": "Barcelona",
+                    "coordinates": "41.391213349629076, 2.180591252965556",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 3,
+                        "name": "Spain"
                     }
                 }
             },
@@ -604,7 +604,7 @@
                 "path": "/albums/spain/spain(3).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "walking on a dream",
+                "description": "Carrea Dels Mirallers",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -616,12 +616,12 @@
                 },
                 "labels": [],
                 "location": {
-                    "id": 1,
-                    "name": "Paris, Louvre Avenue",
-                    "coordinates": "-32.938865, -60.636305",
+                    "id": 5,
+                    "name": "Barcelona",
+                    "coordinates": "41.384263016204734, 2.1809861124850842",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 3,
+                        "name": "Spain"
                     }
                 }
             },
@@ -630,7 +630,7 @@
                 "path": "/albums/spain/spain(4).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "walking on a dream",
+                "description": "Palau de la Música Catalana",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -642,12 +642,12 @@
                 },
                 "labels": [],
                 "location": {
-                    "id": 1,
-                    "name": "Paris, Louvre Avenue",
-                    "coordinates": "-32.938865, -60.636305",
+                    "id": 5,
+                    "name": "Barcelona",
+                    "coordinates": "41.38770374046249, 2.1753280664882197",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 3,
+                        "name": "Spain"
                     }
                 }
             },
@@ -656,7 +656,7 @@
                 "path": "/albums/spain/spain(5).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "walking on a dream",
+                "description": "Misericòrdia",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -668,12 +668,12 @@
                 },
                 "labels": [],
                 "location": {
-                    "id": 1,
-                    "name": "Paris, Louvre Avenue",
-                    "coordinates": "-32.938865, -60.636305",
+                    "id": 5,
+                    "name": "Barcelona",
+                    "coordinates": "41.39359812752416, 2.1632650098421764",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 3,
+                        "name": "Italy"
                     }
                 }
             },
@@ -682,7 +682,7 @@
                 "path": "/albums/spain/spain(6).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "walking on a dream",
+                "description": "Iglesia de San Felipe Neri",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -694,12 +694,12 @@
                 },
                 "labels": [],
                 "location": {
-                    "id": 1,
-                    "name": "Paris, Louvre Avenue",
-                    "coordinates": "-32.938865, -60.636305",
+                    "id": 4,
+                    "name": "Barcelona",
+                    "coordinates": "41.38353251979225, 2.175044198991629",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 3,
+                        "name": "Spain"
                     }
                 }
             },
@@ -708,7 +708,7 @@
                 "path": "/albums/spain/spain(7).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "walking on a dream",
+                "description": "Where am I going?",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -720,12 +720,12 @@
                 },
                 "labels": [],
                 "location": {
-                    "id": 1,
-                    "name": "Paris, Louvre Avenue",
-                    "coordinates": "-32.938865, -60.636305",
+                    "id": 5,
+                    "name": "Barcelona",
+                    "coordinates": "41.36445057583638, 2.1675360153421375",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 3,
+                        "name": "Spain"
                     }
                 }
             },
@@ -734,7 +734,7 @@
                 "path": "/albums/spain/spain(8).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "walking on a dream",
+                "description": "Optimized Industrialization",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -746,12 +746,12 @@
                 },
                 "labels": [],
                 "location": {
-                    "id": 1,
-                    "name": "Paris, Louvre Avenue",
-                    "coordinates": "-32.938865, -60.636305",
+                    "id": 5,
+                    "name": "Barcelona",
+                    "coordinates": "41.36445057583638, 2.1675360153421375",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 3,
+                        "name": "Spain"
                     }
                 }
             },
@@ -760,7 +760,7 @@
                 "path": "/albums/spain/spain(9).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "walking on a dream",
+                "description": "Sagrada Familia",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -772,12 +772,12 @@
                 },
                 "labels": [],
                 "location": {
-                    "id": 1,
-                    "name": "Paris, Louvre Avenue",
-                    "coordinates": "-32.938865, -60.636305",
+                    "id": 5,
+                    "name": "Barcelona",
+                    "coordinates": "41.40375174882907, 2.1744084211744275",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 3,
+                        "name": "Spain"
                     }
                 }
             },
@@ -786,7 +786,7 @@
                 "path": "/albums/spain/spain(10).webp",
                 "width": 1043,
                 "height": 1664,
-                "description": "walking on a dream",
+                "description": "Pasame la Yesca",
                 "camera": {
                     "id": 1,
                     "name": "Asahi Pentax K1000",
@@ -798,12 +798,12 @@
                 },
                 "labels": [],
                 "location": {
-                    "id": 1,
-                    "name": "Paris, Louvre Avenue",
-                    "coordinates": "-32.938865, -60.636305",
+                    "id": 5,
+                    "name": "Barcelona",
+                    "coordinates": "41.40374370147465, 2.174386963503359",
                     "country": {
-                        "id": 1,
-                        "name": "Argentina"
+                        "id": 3,
+                        "name": "Spain"
                     }
                 }
             }
