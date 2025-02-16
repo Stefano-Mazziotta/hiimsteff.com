@@ -33,11 +33,12 @@ export default function SinglePhoto({
           alt={description}
           width={800}
           height={500}
-          className="h-auto w-full shadow-lg"
+          className="h-auto w-full shadow-lg p-2 bg-white"
         />
+        <h2 className="italic p-2 text-cyan-300">{description}</h2>
       </div>
       <div className="w-full space-y-4 md:w-1/2">
-        <Card className="rounded-none">
+        <Card className="">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <MapPinIcon className="h-5 w-5" />
@@ -46,7 +47,7 @@ export default function SinglePhoto({
           </CardHeader>
           <CardContent>{`${location.name}, ${location.country.name}.`}</CardContent>
         </Card>
-        <Card className="rounded-none">
+        <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <CameraIcon className="h-5 w-5" />
@@ -55,7 +56,7 @@ export default function SinglePhoto({
           </CardHeader>
           <CardContent>{camera?.name}</CardContent>
         </Card>
-        <Card className="rounded-none">
+        <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <FilmIcon className="h-5 w-5" />
@@ -64,7 +65,7 @@ export default function SinglePhoto({
           </CardHeader>
           <CardContent>{film?.name}</CardContent>
         </Card>
-        <Card className="rounded-none">
+        <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <TagIcon className="h-5 w-5" />
