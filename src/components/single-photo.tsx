@@ -20,14 +20,15 @@ export default function SinglePhoto({
   const { description, path, location, camera, film, labels } = photo;
 
   return (
-    <section className="flex flex-col items-start gap-5 md:h-screen md:flex-row md:gap-10">
-      <Link
-        href={`/gallery/${slug}`}
-        className="z-10 md:transition-transform md:hover:translate-x-[-3px]"
-      >
-        <ArrowLeftIcon className="h-6 w-6" />
-      </Link>
-      <div className="w-full md:w-1/2 md:max-w-md">
+    <section className="w-full lg:w-1/2 flex flex-col mx-auto justify-center items-center gap-5">
+      
+      <div className="w-full flex flex-col gap-2">
+        <Link
+          href={`/gallery/${slug}`}
+          className="z-10 md:transition-transform md:hover:translate-x-[-3px]"
+        >
+          <ArrowLeftIcon className="h-6 w-6" />
+        </Link>
         <Image
           src={path || "/placeholder.svg"}
           alt={description}
@@ -37,7 +38,7 @@ export default function SinglePhoto({
         />
         <h2 className="italic p-2 text-cyan-300">{description}</h2>
       </div>
-      <div className="w-full space-y-4 md:w-1/2">
+      <div className="w-full space-y-4">
         <Card className="">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
